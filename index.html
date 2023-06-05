@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animeted Dark Theme Log in - Luís Sitoe</title>
+
+    <!--============ Google Fonts ==============-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!--============ Boxicons ==============-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!--============ Main CSS ==============-->
+    <link rel="stylesheet" href="assets/css/main.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="form__wrapper">
+            <form class="form">
+                <h1 class="form__title">Log in.</h1>
+                <div class="form__links">
+                    <a href="#" class="form__link">
+                        <i class='bx bxl-google'></i>
+                        Continue with Google
+                    </a>
+                    <a href="#" class="form__link">
+                        <i class='bx bxl-facebook-circle'></i>
+                        Continue with Facebook
+                    </a>
+                </div>
+                <div class="form__separator">
+                </div>
+                <div class="form__inputs">
+                    <div class="field">
+                        <label class="field__label">Email</label>
+                        <div class="field__wrapper">
+                            <span class="field__icon"><i class='bx bx-envelope'></i></span>
+                            <input class="field__input" type="text" placeholder="Enter email" required>
+                        </div>
+                    </div>
+                    <div class="field">
+                        <label class="field__label">Password</label>
+                        <div class="field__wrapper">
+                            <span class="field__icon"><i class='bx bx-lock-alt'></i></span>
+                            <input id="field-password" class="field__input" type="password" placeholder="Enter password"
+                                required>
+                            <span class="field__icon">
+                                <i class='bx bx-hide password-icon'></i>
+                                <!-- <i class='bx bx-show'></i>-->
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="form__footer">
+                    <a href="#" class="form__recover">Forgot Password?</a>
+                    <button type="submit" class="form__btn">Log in</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!--============ Main JS ==============-->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
